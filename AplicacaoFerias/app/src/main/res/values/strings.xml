@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplicacao Ferias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="altura_triangulo">Altura do Triangulo</string>
+    <string name="base_triangulo">Base do Triangulo</string>
+    <string name="triangulo_area">A area do triangulo é: </string>
+    <string name="usuario_latitude">Lat:</string>
+    <string name="usuario_longitude">Long:</string>
+    <string name="buscar_contato">Buscar Contato</string>
+    <string name="digite_o_nome_do_contato">Digite o nome do contato</string>
+</resources>

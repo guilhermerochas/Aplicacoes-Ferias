@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.CalculaTrianguloFragment">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/triangulo_Altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/altura_triangulo"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/triangulo_Base"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="@string/base_triangulo"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:id="@+id/resultado_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/triangulo_area"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:id="@+id/calcular_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        />
+
+</LinearLayout>
